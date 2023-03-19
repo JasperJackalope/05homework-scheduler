@@ -1,8 +1,6 @@
 var todayDate = dayjs();
 $('#currentDay').text(todayDate.format('MMM D, YYYY'));
 
-console.log(todayDate);
-
 
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
