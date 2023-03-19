@@ -1,7 +1,17 @@
 var todayDate = dayjs();
+
 $('#currentDay').text(todayDate.format('MMM D, YYYY'));
 
-
+$('.row').each(function() {
+    var time = $(this).data("time");
+    if (time < Date.now()) {
+      $(this).addClass("past");
+    } else if (time > Date.now()) {
+      $(this).addClass("future");
+    } else {
+      $(this).addClass("present");
+    }
+});
 
 // Wrap all code that interacts with the DOM in a call to jQuery to ensure that
 // the code isn't run until the browser has finished rendering all the elements
