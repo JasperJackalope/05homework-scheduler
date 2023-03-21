@@ -18,7 +18,7 @@ To add an entry, simply click in the row for the desired hour, add the text, and
 
 ## Credits
 
-Thank you Bryan and Shawn for pointing me in the right direction for my code. I used W3 schools to research and fill in the gaps, along with my friend (and coder) Cameron who helped me with the tricky bits. Finally, I used ChatGBT to debug the final stretches.
+Thank you Bryan and Shawn for pointing me in the right direction for my code. I used W3 schools to research and fill in the gaps, along with my friend (and coder) Cameron who helped me with the tricky bits. Finally, I used ChatGPT to debug the final stretches.
 
 ## License
 
