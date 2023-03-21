@@ -14,7 +14,7 @@ The user will be presented with a webpage displaying the current date at the top
 
 To add an entry, simply click in the row for the desired hour, add the text, and click the blue save button at the far right of the row. The entry is now saved and upon refreshing the website, the entry will remain. To delete the entry, click in the row, deleted the desired text, and click save again. 
 
-![alt text](./Develop/scheduler-screenshot.jpg)
+![alt text](./Assets/scheduler-screenshot.jpg)
 
 ## Credits
 
