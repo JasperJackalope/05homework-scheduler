@@ -21,6 +21,15 @@ $(function () {
   }
 });
 
+$('button').on('click', function() {
+  const textValue = $('textarea').val();
+  localStorage.setItem('To Do List', textValue);
+  console.log('Saved:', textValue);
+});
+
+
+// const savedText = localStorage.getItem('event');
+
 
 
   // TODO: Add a listener for click events on the save button. This code should
